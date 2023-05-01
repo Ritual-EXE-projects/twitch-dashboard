@@ -1,7 +1,14 @@
-# Tauri + React + Typescript
+# Dashboard Prototype
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+A proof of concept dashboard for managing Twitch integrations for Ritual.EXE.
 
-## Recommended IDE Setup
+Goals:
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [x] Authenticate with Twitch using client OAuth flow
+- [ ] Successfully connect to an Twitch EventSub via Websockets
+- [ ] Track channel point redeems
+- [ ] Control keyboard interactions
+
+## TODO
+
+- [ ] Write dev oauth flow using app access token
