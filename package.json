@@ -1,0 +1,39 @@
+{
+  "name": "ritual-twitch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tailwind:build && tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@tauri-apps/api": "^1.2.0",
+    "@twurple/api": "^6.2.0",
+    "@twurple/auth": "^6.2.0",
+    "@twurple/eventsub-ws": "^6.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tauri-plugin-store-api": "github:tauri-apps/tauri-plugin-store",
+    "zustand": "^4.3.7"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3"
+  }
+}
